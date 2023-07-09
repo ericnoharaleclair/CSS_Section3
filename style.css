@@ -4,6 +4,8 @@
   padding: 0;
 }
 
+/* PAGE SECTIONS */
+
 body {
   color: #444;
   font-family: sans-serif;
@@ -21,7 +23,7 @@ body {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 .post-header {
@@ -43,6 +45,8 @@ aside {
 nav {
   font-size: 18px;
 }
+
+/* SMALLER ELEMENTS */
 
 h1,
 h2,
@@ -145,4 +149,17 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  /* margin: 20px;
+  padding: 20px;
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
