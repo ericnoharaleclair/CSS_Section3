@@ -23,6 +23,20 @@ article {
   background-color: #f1f1f1;
   font-size: 22px;
   padding: 16px;
+  position: relative;
+}
+
+.product::after {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  position: absolute;
+  padding: 6px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  top: -20px;
+  left: -40px;
+  letter-spacing: 5px;
 }
 
 h2,
@@ -89,4 +103,41 @@ a:hover {
   font-size: 18px;
   margin-top: 22px;
   margin-bottom: 8px;
+}
+
+.colors-container {
+  margin-top: 22px;
+}
+
+.color {
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.black {
+  background-color: black;
+  margin-left: 10px;
+}
+
+.blue {
+  background-color: rgb(68, 68, 255);
+}
+
+.red {
+  background-color: rgb(255, 60, 60);
+}
+
+.yellow {
+  background-color: rgb(255, 226, 61);
+}
+
+.green {
+  background-color: rgb(146, 223, 149);
+}
+
+.brown {
+  background-color: rgb(165, 108, 42);
+  margin-right: 0;
 }
