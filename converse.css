@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,7 +21,7 @@ article {
 
 .product {
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #e1e1e1;
   font-size: 22px;
   padding: 16px;
   position: relative;
@@ -83,7 +84,7 @@ a:hover {
   color: black;
   border-color: white;
   border-top: 5px solid black;
-  border-bottom: 5px solid black;
+  /* border-bottom: 5px solid black; */
 }
 
 .shipping {
@@ -91,17 +92,20 @@ a:hover {
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 18px;
+  margin-top: 8px;
+  float: right;
 }
 
 .price {
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 0;
+  float: left;
 }
 
 .details {
   font-size: 18px;
-  margin-top: 22px;
+  margin-top: 20px;
   margin-bottom: 8px;
 }
 
@@ -140,4 +144,44 @@ a:hover {
 .brown {
   background-color: rgb(165, 108, 42);
   margin-right: 0;
+}
+
+.shoe-img {
+  float: left;
+  margin-right: 40px;
+}
+
+.description-container {
+  float: left;
+  width: 240px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.details-container {
+  float: left;
+  width: 240px;
+}
+
+.product-description {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.info-container {
+  background-color: rgb(248, 248, 248);
+}
+
+.home {
+  float: right;
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
