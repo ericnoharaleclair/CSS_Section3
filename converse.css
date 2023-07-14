@@ -116,13 +116,10 @@ a:hover {
 .color {
   height: 25px;
   width: 25px;
-  display: inline-block;
-  margin-right: 10px;
 }
 
 .black {
   background-color: black;
-  margin-left: 10px;
 }
 
 .blue {
@@ -143,10 +140,10 @@ a:hover {
 
 .brown {
   background-color: rgb(165, 108, 42);
-  margin-right: 0;
 }
 
-.shoe-img {
+/* CHALLENGE 1 */
+/* .shoe-img {
   float: left;
   margin-right: 40px;
 }
@@ -184,4 +181,44 @@ a:hover {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
+} */
+
+/* CHALLENGE 2 */
+.colors-container {
+  display: flex;
+  gap: 10px;
+}
+
+.info-container {
+  display: flex;
+  gap: 40px;
+}
+
+.details-container {
+  flex: 1;
+}
+
+.description-container {
+  flex: 1;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.shipping {
+  margin: 0;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+}
+
+.home:link {
+  font-size: 20px;
+  padding: 5px;
 }
